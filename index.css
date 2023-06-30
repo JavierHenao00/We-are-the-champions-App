@@ -1,0 +1,228 @@
+html,body{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 40px 0px;
+    
+    
+}
+
+#title{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+img{
+    width: 120px;
+    margin: 0 auto;
+
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    color:  aliceblue;
+    border-radius: 10px;
+    background-color: rgba(68, 64, 89, 1);
+    border: none;
+    font-size: 15px;
+    padding: 12px;
+    
+}
+::placeholder{
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+#btn-p{
+    margin-top: 15px;
+    padding: 20px 10px;
+    font-size: 25px;
+    width: 325px;
+    border-radius: 10px;
+    background-color: rgba(40, 169, 241, 1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgba(4, 19, 28, 1);
+    border: none;
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+#likes-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 5px;
+}
+
+#likes-el{
+    font-size: 30px;
+    border: none;
+   
+    padding-right:0px ;
+}
+
+
+#likes-el:active{
+    
+    transform: scale(0.98);
+    color: red;
+}
+
+#sum-el{
+margin: 7px 0px;
+font-size: 20px;
+font-weight: bolder;
+
+
+
+}
+#container2{
+ display: flex;
+ flex-direction: row;
+ padding-right: 10px; 
+ flex-wrap: wrap;
+ gap: 5px;
+}
+#container1{
+    padding-left: 10px;
+}
+
+
+
+
+/* Endorsement text setup */
+
+.textEndors{
+     font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    
+    
+}
+.FromText{
+    font-size: 18px;
+    color: black;
+    
+   text-align: justify;
+    margin: 6px 0px;
+   
+    
+   
+    
+    
+}
+.ToText{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+#inputsContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+    
+    
+    
+
+}
+
+#inputFrom-el::placeholder{
+text-align: center;
+font-size: 17px;
+}
+
+
+#inputTo-el::placeholder{
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+input{
+    width: 140px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: rgba(68, 64, 89, 1);
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+    
+
+    
+}
+
+
+
+
+#endors-el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.InnerEndors{
+    background-color: aliceblue;
+    width: 295px;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    padding:10px 12px;
+}
+
+.InnerEndors2{
+    background-color: aliceblue;
+    width: 295px;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    padding:10px 12px;
+}
+
+#alert-container{
+    background-color: aliceblue;
+    width: 295px;
+    height: 100px;
+    padding:10px 12px;
+    
+}
+#alert-container3{
+    background-color: aliceblue;
+    width: 295px;
+    height: 152px;
+    padding:10px 12px;
+    
+}
+#alert-container2{
+    background-color: aliceblue;
+    width: 295px;
+    height: 152px;
+    padding:10px 12px;
+    
+}
+#message-error{
+color: black;
+text-align: center;
+}
